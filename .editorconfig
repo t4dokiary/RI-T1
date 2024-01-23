@@ -1,0 +1,16 @@
+# Configuración de .editorconfig para proyectos de código abierto
+root = true
+
+[*]
+# Establece la codificación de caracteres como UTF-8 para todos los archivos
+charset = utf-8
+# Usa espacios en lugar de tabulaciones para la indentación
+indent_style = space
+# Configura el tamaño de la indentación a 4 espacios
+indent_size = 4
+# Elimina los espacios en blanco al final de cada línea al guardar
+trim_trailing_whitespace = true
+# Asegura que haya una línea nueva al final de cada archivo
+insert_final_newline = true
+# Establece un límite de longitud de 120 caracteres por línea
+max_line_length = 120
